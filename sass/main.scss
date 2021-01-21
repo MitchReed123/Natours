@@ -1,0 +1,27 @@
+// run "npm run compile:sass" to set the watch to auto-compile
+//imports for 7-1 structure
+//ABSTRACTS
+@import "abstracts/funtions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+//BASE
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+//COMPONENETS
+@import "components/button";
+@import "components/composition.scss";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
+@import "components/popup";
+//LAYOUTS
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
+//PAGES
+@import "pages/home";
