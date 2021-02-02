@@ -21,9 +21,9 @@
   //responsive images with SCSS/CSS
   // if the resolution of the screen is higher than 192dpi it will load the code inside of this media query(dpi = dots per inch)
   // the second part of the media query does a check if its a (phone) size roughly
-  @media (min-resolution: 192dpi) and (min-width: 37.5em),
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
     // this line below is for safari browsers (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-    (min-width: 125em) {
+    only screen and (min-width: 125em) {
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.801),
