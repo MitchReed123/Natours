@@ -10,6 +10,7 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  //asks the browser if it supports the property
   @supports (-webkit-backdrop-filter: blur(10px)) or
     (backdrop-filter: blur(10px)) {
     -webkit-backdrop-filter: blur(10px);
